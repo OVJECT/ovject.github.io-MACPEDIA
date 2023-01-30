@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://ovject.github.io/MACPEDIA/sitemap.xml
