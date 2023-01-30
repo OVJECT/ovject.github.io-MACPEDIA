@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+  var audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+  var oscillator = audioCtx.createOscillator();
+  oscillator.type = 'square';
+  oscillator.frequency.value = 440;
+  oscillator.start();
+  var isPlaying = false;
+  function playSound(event) {
+    if (event.type === "mousedown") {
+        oscillator.connect(audioCtx.destination);
+    } else {
+        oscillator.disconnect();
+    }
+  }
+</script>
+</head>
+<body>
+  <h1>8-bit Music</h1>
+  <button onmousedown="playSound(event); oscillator.frequency.value = 880;" onmouseup="playSound(event);" onmouseleave="playSound(event);">A4</button>
+  <button onmousedown="playSound(event); oscillator.frequency.value = 740;" onmouseup="playSound(event);" onmouseleave="playSound(event);">G4</button>
+  <button onmousedown="playSound(event); oscillator.frequency.value = 660;" onmouseup="playSound(event);" onmouseleave="playSound(event);">F4</button>
+</body>
+</html>
