@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <title>MACPEDIA</title>
+    <link href="https://ovject.github.io/MACPEDIA/feed.xml" rel="self" />
+    <link href="https://ovject.github.io/MACPEDIA" />
+    <updated>2024-03-26T16:43:22+09:00</updated>
+    <author>
+        <name>MACPEDIA</name>
+    </author>
+    <id>https://ovject.github.io/MACPEDIA</id>
+
+    <entry>
+        <title>test_windows</title>
+        <author>
+            <name>MACPEDIA</name>
+        </author>
+        <link href="https://ovject.github.io/MACPEDIA/test.html"/>
+        <id>https://ovject.github.io/MACPEDIA/test.html</id>
+
+        <updated>2023-01-30T13:12:06+09:00</updated>
+            <summary>
+                <![CDATA[
+                    222테스트입니다.
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                
+  <p>
+    222테스트입니다.
+  </p>
+            ]]>
+        </content>
+    </entry>
+</feed>
