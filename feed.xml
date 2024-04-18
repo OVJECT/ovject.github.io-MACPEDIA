@@ -3,12 +3,32 @@
     <title>MACPEDIA</title>
     <link href="https://ovject.github.io/MACPEDIA/feed.xml" rel="self" />
     <link href="https://ovject.github.io/MACPEDIA" />
-    <updated>2024-04-18T17:47:22+09:00</updated>
+    <updated>2024-04-18T17:49:30+09:00</updated>
     <author>
         <name>MACPEDIA</name>
     </author>
     <id>https://ovject.github.io/MACPEDIA</id>
 
+    <entry>
+        <title>ㅍㄴㅇ</title>
+        <author>
+            <name>MACPEDIA</name>
+        </author>
+        <link href="https://ovject.github.io/MACPEDIA/pn.html"/>
+        <id>https://ovject.github.io/MACPEDIA/pn.html</id>
+
+        <updated>2024-04-18T17:49:30+09:00</updated>
+            <summary>
+                <![CDATA[
+                    ㅁㄴㅇㄹㄴㄹㄴㅁㅇㄹ
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>ㅁㄴㅇㄹㄴㄹㄴㅁㅇㄹ</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>애플 단축어로 간단하게 깨진 파일명 수정하기</title>
         <author>
